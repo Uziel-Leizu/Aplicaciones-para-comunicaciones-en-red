@@ -1,0 +1,13 @@
+DROP DATABASE IF EXIST crudjson;
+CREATE DATABASE crudjson;
+
+use crudjson;
+
+CREATE TABLE tablajson(columnajson JSON);
+
+insert into tablajson(columnajson) values('{"id" : "1","pregunta" : "Una simple pregunta de prueba","respuesta" : "OP1-3;OP2-4;OP3-1;OP4-2","drags" : [{"imagen" : "https://via.placeholder.com/150","valor" : "Fidel Castro"},{"imagen" : "https://via.placeholder.com/150","valor" : "George W. Bush"},{"imagen" : "https://via.placeholder.com/150","valor" : "Vidente Fox"},{"imagen" : "https://via.placeholder.com/150","valor" : "Ricardo Lagos"}],"targets" : [{"imagen" : "https://via.placeholder.com/150","valor" : "Mexico"},{"imagen" : "https://via.placeholder.com/150","valor" : "Chile"},{"imagen" : "https://via.placeholder.com/150","valor" : "Cuba"},{"imagen" : "https://via.placeholder.com/150","valor" : "Estados Unidos"}]}');
+
+
+
+
+
